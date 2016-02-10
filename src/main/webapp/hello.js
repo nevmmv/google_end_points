@@ -118,7 +118,7 @@ function sayHelloCallback (response) {
 
 function showPassword (response) {
 	document.getElementById("pass").value=response.password;
-	alert(response.password);	
+	//alert(response.password);	
 }
 
 
